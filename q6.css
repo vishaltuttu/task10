@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #fff;
+}
+
+.hero-section {
+    height: 100vh;
+    background: url('rockstar-bg.jpg') no-repeat center center/cover;
+}
+
+.games-section .card {
+    background-color: #333;
+    border: none;
+}
+
+.games-section .card-title {
+    color: #fff;
+}
+
+footer {
+    background-color: #000;
+}
+
+
+#games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#game1{
+    background-image: url("https://images.ctfassets.net/wn7ipiv9ue5v/3J3gA18Jr0GjJK76Khl9jR/e2096a61d96292ed316d611019df3ae2/MP3_FOB_1212x1497.jpg");
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 25px;
+}
+#game1 button{
+    margin-top: 130px;
+}
+
+#game1:hover{
+    flex: 1;
+}
+#game2{
+    background-image: url("./game2.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 25px;
+}
+#game2 button{
+    margin-top: 130px;
+}
+
+#game2:hover{
+    flex: 1;
+}
+#game3{
+    background-image: url("./game3.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 25px;
+}
+#game3 button{
+    margin-top: 130px;
+}
+
+#game3:hover{
+    flex: 1;
+}
+#game4{
+    background-image: url("./game4.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 25px;
+}
+#game4 button{
+    margin-top: 130px;
+}
+
+#game4:hover{
+    flex: 1;
+}
+#game5{
+    background-image: url("./game5.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 25px;
+}
+#game5 button{
+    margin-top: 130px;
+}
+
+#game5:hover{
+    flex: 1;
+}
+#game6{
+    background-image: url("./game6.jpeg");
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 25px;
+}
+#game6 button{
+    margin-top: 130px;
+}
+
+#game6:hover{
+    flex: 1;
+}
+
+
